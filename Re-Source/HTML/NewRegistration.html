@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../fonts/favicon.ico">
+
+    <title>Welcome to Re-Source</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Customised CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="new-registration container">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h4 class="heading-style">New Client Registration</h4>
+        </div>
+      </div>
+      
+      <form class="new-registration">
+        <div class="row">
+          <div class="col-lg-4">
+            <label>User Name<span class="mandatory-sign">*</span></label>
+          </div>
+
+          <div class="col-lg-8">
+            <input type="text" id="userName" class="form-control" required autofocus>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <label>Email Id<span class="mandatory-sign">*</span></label>
+          </div>
+
+          <div class="col-lg-8">
+            <input type="email" id="emailId" class="form-control" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <label>Password<span class="mandatory-sign">*</span></label>
+          </div>
+
+          <div class="col-lg-8">
+            <input type="password" id="passwordFirst" class="form-control" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <label>Confirm Password<span class="mandatory-sign">*</span></label>
+          </div>
+
+          <div class="col-lg-8">
+            <input type="password" id="passwordConfirm" class="form-control" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <label>Contact Number<span class="mandatory-sign">*</span></label>
+          </div>
+
+          <div class="col-lg-8">
+            <input type="tel" id="contactNumber" class="form-control" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <label>I Want to:<span class="mandatory-sign">*</span></label>
+          </div>
+          <div class="col-lg-8">
+            <input type="checkbox" value="license1" id="license1" />&nbsp;Add Bench and View Requirements.<br/>
+            <input type="checkbox" value="license2" id="license2" />&nbsp;Viewing Bench and Adding Requirements.
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+          </div>
+          <div class="col-lg-8">
+            <input type="checkbox" value="Iagree" id="Iagree" />&nbsp;I agree to the <a>Terms & Conditions</a><span class="mandatory-sign">*</span><br/>
+          </div>
+        </div>
+
+        <div class="row">
+          <center>
+              <button style="width: 200px;" class="btn btn-lg btn-block register-button" type="submit">Register</button>
+          </center>
+        </div>
+
+      </form>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
